@@ -29,7 +29,7 @@ public class Main {
             System.out.println("When will you arrive:");
             String arriveTime = sc.nextInt();
 
-            Syetem.out.println("Dear " + customerName + ",");
+            System.out.println("Dear " + customerName + ",");
             System.out.println("Please choose a canteen from the list:");
             int j = 0;
             for (String c : canteeens) {
